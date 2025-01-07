@@ -1,0 +1,10 @@
+{
+  "name": "margiet-xiphias-gradius",
+  "$schema": "node_modules/nx/schemas/project-schema.json",
+  "includedScripts": [],
+  "sourceRoot": "./src",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project margiet-xiphias-gradius --web",
+  "targets": {}
+}
