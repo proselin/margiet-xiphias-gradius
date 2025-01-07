@@ -1,0 +1,1 @@
+docker build -t margiet-xiphias-gradius:0.0.1 . --progress=plain --network=host
