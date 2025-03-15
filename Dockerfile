@@ -29,7 +29,7 @@ WORKDIR /usr/share/nginx/html
 RUN rm -rf ./*
 
 # Copy built app from builder stage
-COPY --from=builder /app/dist .
+COPY --from=builder /app/dist/margiet-xiphias-gradius .
 
 # Copy custom Nginx configuration
 COPY nginx.conf /etc/nginx/nginx.conf
